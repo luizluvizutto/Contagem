@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 573
+  ClientWidth = 613
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Size.Width = 613.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.HorzAlign = Center
+    Text = 'Contagem'
+    TabOrder = 0
+  end
+  object btReiniciar: TButton
+    Align = Top
+    Position.Y = 65.000000000000000000
+    Size.Width = 613.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Reiniciar'
+    OnClick = btReiniciarClick
+  end
+  object btContar: TButton
+    Align = Top
+    Position.Y = 113.000000000000000000
+    Size.Width = 613.000000000000000000
+    Size.Height = 88.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Contar'
+    OnClick = btContarClick
+  end
+  object LbQuantidade: TLabel
+    Align = Horizontal
+    Position.Y = 216.000000000000000000
+    Size.Width = 613.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Quantidade: 0'
+    TabOrder = 5
+  end
+  object LbTempoMedio: TLabel
+    Align = Horizontal
+    Position.Y = 312.000000000000000000
+    Size.Width = 613.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Tempo M'#233'dio: 00:00:00'
+    TabOrder = 4
+  end
+  object LbTempo: TLabel
+    Align = Horizontal
+    Position.Y = 408.000000000000000000
+    Size.Width = 613.000000000000000000
+    Size.Height = 89.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.HorzAlign = Center
+    Text = 'Tempo decorrido: 00:00:00'
+    TabOrder = 3
+  end
+end
