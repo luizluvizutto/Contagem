@@ -1,7 +1,7 @@
 unit Un_Contagem;
 
 interface
-uses System.SysUtils, System.Variants,Vcl.Controls, System.Classes, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+uses System.SysUtils, System.Variants, System.Classes;
 
 type
 

@@ -1,0 +1,4 @@
+platform select remote-android
+platform connect unix-abstract-connect:///data/local/tmp/debug.sock device=0048115646
+process attach -pid=30864
+target symbols add C:\DesenvDelphi\Contagem\Android64\Debug\Contagem\debug\libContagem.so
